@@ -13,7 +13,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "eks-tf-state-bucket-aritra-eks"
+    bucket = "eks-tf-state-bucket-aritra-eks1"
     key    = "eks-tf-state"
     region = "us-east-1"
   }
